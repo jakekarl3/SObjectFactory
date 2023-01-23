@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com?owner=jakekarl3&repo=SObjectFactory&ref=master">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 SObjectFactory
 ==============
 The idea behind this utility is to generate records that can be inserted into the database of any `SObjectType` that is itself createable. Test authors should be able to specify **only data they care about**, freed from the concerns of which fields are required. A key paradigm this utility adopts is that `build` will generate record(s) but not perform any `DML`, while `create` will generate the same record(s) and insert them. This paradigm is consistent accross both the `SObjectFactory` and `SObjectBuilder` classes.
